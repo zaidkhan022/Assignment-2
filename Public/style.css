@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+:root {
+  --basic_font: poppins;
+}
+body {
+  background-image: url("/Assets/Asset\ 1\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 350px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: var(--basic_font);
+  font-weight: 400;
+  color: #404444;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  font-family: var(--basic_font);
+  font-weight: 700;
+  color: #2274ff;
+  border-bottom: 1px solid black;
+}
+.about_compny {
+  margin-left: 70px;
+  margin-right: 65px;
+}
+.about_compny_text {
+  width: 40%;
+  margin-top: 180px;
+  float: left;
+}
+.about_compny_pic {
+  margin-top: 135px;
+  float: right;
+}
+.book_with_another {
+  clear: both;
+  background-color: #f4f8ff;
+  margin-top: 775px;
+  height: 380px;
+}
+.book_with_another_text {
+  font-family: var(--basic_font);
+  font-size: 31.78px;
+  font-weight: 600;
+  line-height: 47.67px;
+  text-align: center;
+  padding: 30px 0px;
+  color: #222177;
+}
+.book_with_another_link {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.offer_head {
+  font-family: var(--basic_font);
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 69px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  padding-top: 20px;
+  color: #2274ff;
+}
+.offer_paragraph {
+  font-family: var(--basic_font);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin: 20px 140px;
+  color: #222177;
+}
+.offer_with_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+.offer_btn {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+.offer_btn button {
+  width: 272px;
+  height: 56px;
+  border-radius: 50px;
+  border: none;
+  background-color: #2274ff;
+  font-family: var(--basic_font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.offer_btn button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.offer_btn button:hover {
+  cursor: pointer;
+  background-color: #082f72;
+}
+footer {
+  width: 100%;
+  height: 389px;
+  background-color: #f4f8ff;
+  padding-top: 20px;
+}
+.foot_about_compny {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+  float: left;
+}
+.foot_about_compny_text {
+  font-family: var(--basic_font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #626a7d;
+}
+.foot_about_compny_links {
+  display: flex;
+  gap: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  float: left;
+  margin-left: 93px;
+}
+.links_head {
+  color: #030163;
+  font-family: Manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.links a {
+  text-decoration: none;
+  font-family: var(--basic_font);
+  color: #2274ff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.payment {
+  float: right;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.payment_head {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.03em;
+  color: #222177;
+}
+.payment_links {
+  display: flex;
+  gap: 30px;
+}
+.foot {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  clear: both;
+  color: #2274ff;
+  margin: 250px;
+}
