@@ -12,6 +12,8 @@ body {
 }
 :root {
   --basic_font: poppins;
+  --font_head_clr: #222177;
+  --font_text_clr: #2274ff;
 }
 body {
   background-image: url("/Assets/Asset\ 1\ 3.png");
@@ -22,7 +24,7 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 350px;
+  gap: 300px;
   margin-top: 20px;
   margin-left: 50px;
 }
@@ -68,12 +70,11 @@ nav ul li a:hover {
 }
 .book_with_another_text {
   font-family: var(--basic_font);
-  font-size: 31.78px;
+  font-size: 32px;
   font-weight: 600;
-  line-height: 47.67px;
   text-align: center;
   padding: 30px 0px;
-  color: #222177;
+  color: var(--font_head_clr);
 }
 .book_with_another_link {
   margin-top: 70px;
@@ -84,21 +85,17 @@ nav ul li a:hover {
   font-family: var(--basic_font);
   font-size: 46px;
   font-weight: 800;
-  line-height: 69px;
-  letter-spacing: -0.03em;
   text-align: center;
   padding-top: 20px;
-  color: #2274ff;
+  color: var(--font_text_clr);
 }
 .offer_paragraph {
   font-family: var(--basic_font);
   font-size: 40px;
   font-weight: 700;
-  line-height: 56px;
-  letter-spacing: -0.03em;
   text-align: center;
-  margin: 20px 140px;
-  color: #222177;
+  margin: 20px 100px;
+  color: var(--font_head_clr);
 }
 .offer_with_links {
   display: flex;
@@ -120,7 +117,6 @@ nav ul li a:hover {
   font-family: var(--basic_font);
   font-size: 24px;
   font-weight: 700;
-  line-height: 24px;
   text-align: center;
   color: #ffffff;
 }
@@ -131,6 +127,90 @@ nav ul li a:hover {
 .offer_btn button:hover {
   cursor: pointer;
   background-color: #082f72;
+}
+.below_offer {
+  width: 100%;
+  height: 783px;
+  background-color: #f4f8ff;
+  background-image: url("/Assets/Union.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 70px;
+  padding-top: 110px;
+}
+.below_offer_head {
+  color: var(--font_head_clr);
+  font-family: var(--basic_font);
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.below_offer_head span {
+  color: var(--font_text_clr);
+}
+.below_offer_para {
+  font-family: var(--basic_font);
+  color: var(--font_text_clr);
+  font-weight: 600;
+  margin-top: 25px;
+  width: 70%;
+}
+.below_offer_pic {
+  margin-top: 20px;
+}
+.client_reviews {
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.client_reviews_head {
+  font-family: var(--basic_font);
+  color: var(--font_head_clr);
+  font-size: 46px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+.all_clients {
+  display: flex;
+  gap: 130px;
+}
+.client_reviews_sec {
+  width: 550px;
+  margin-left: 15px;
+}
+.client_1 {
+  display: flex;
+  gap: 20px;
+}
+.client_stars {
+  display: flex;
+  align-items: center;
+}
+.time {
+  font-family: var(--basic_font);
+  color: var(--font_head_clr);
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 50px;
+}
+.client_name_proprty {
+  font-family: var(--basic_font);
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--font_text_clr);
+}
+.client_reviews_sec_text {
+  font-family: var(--basic_font);
+  color: var(--font_text_clr);
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px 150px 0px;
 }
 footer {
   width: 100%;
@@ -150,8 +230,6 @@ footer {
   font-family: var(--basic_font);
   font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: -0.02em;
   color: #626a7d;
 }
 .foot_about_compny_links {
@@ -170,7 +248,6 @@ footer {
   font-family: Manrope;
   font-size: 21px;
   font-weight: 700;
-  line-height: 24px;
 }
 .links a {
   text-decoration: none;
@@ -190,8 +267,6 @@ footer {
   font-family: Poppins;
   font-size: 36px;
   font-weight: 600;
-  line-height: 54px;
-  letter-spacing: -0.03em;
   color: #222177;
 }
 .payment_links {
@@ -202,8 +277,6 @@ footer {
   font-family: Manrope;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
-  letter-spacing: -0.02em;
   text-align: center;
   clear: both;
   color: #2274ff;
