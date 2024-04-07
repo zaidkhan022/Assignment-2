@@ -15,18 +15,18 @@ body {
   --font_head_clr: #222177;
   --font_text_clr: #2274ff;
 }
-body {
-  background-image: url("/Assets/bg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.bg-image img{
+  width: 100%;
+  position: absolute;
 }
 header {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 300px;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-left: 50px;
+  position: relative;
 }
 nav ul {
   display: flex;
@@ -128,23 +128,26 @@ nav ul li a:hover {
   cursor: pointer;
   background-color: #082f72;
 }
+.lines_4{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
 .below_offer {
   width: 100%;
-  height: 783px;
+  height: 850px;
   background-color: #f4f8ff;
-  background-image: url("/Assets/Union.png");
-  background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
-  padding-left: 70px;
   padding-top: 110px;
+  z-index: -2;
 }
 .below_offer_head {
   color: var(--font_head_clr);
   font-family: var(--basic_font);
   font-size: 45px;
   font-weight: 700;
-  line-height: 50px;
+  margin-left: 70px;
 }
 .below_offer_head span {
   color: var(--font_text_clr);
@@ -155,9 +158,11 @@ nav ul li a:hover {
   font-weight: 600;
   margin-top: 25px;
   width: 70%;
+  margin-left: 70px;
 }
 .below_offer_pic {
   margin-top: 20px;
+  z-index: 1;
 }
 .client_reviews {
   margin-top: 60px;
