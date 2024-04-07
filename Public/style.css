@@ -16,7 +16,7 @@ body {
   --font_text_clr: #2274ff;
 }
 body {
-  background-image: url("/Assets/Asset\ 1\ 3.png");
+  background-image: url("/Assets/bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
